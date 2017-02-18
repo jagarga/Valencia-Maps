@@ -1,0 +1,108 @@
+div.olControlAttribution {
+  background-color: rgb(220,220,220);
+  background-color: rgba(55,55,55,0.2); 
+  border-top-left-radius: 5px;
+  bottom: 0;
+  color: #333;
+  max-width: 50%;
+  max-height: 50%;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding: 3px 3px 3px 5px;
+  right: 0;
+  text-align: right;
+  text-shadow: 0 0 2px #fff;
+}
+div.olControlAttribution a,
+div.olControlAttribution a:link,
+div.olControlAttribution a:visited,
+div.olControlAttribution a:hover,
+div.olControlAttribution a:active {
+  color: darkblue;
+}
+
+.myBgCls{
+    background: blue;
+}
+
+/* Controles */
+.button_zommmax {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/zoom-world-mini.png);	
+}
+
+.button_nav {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/panning-hand-on.png);	
+}
+
+.button_draw {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/draw_polygon_off.png);	
+}
+
+.button_drawline {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/draw_line_off.png);	
+}
+
+.button_select {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/select.png);	
+}
+
+.button_previous {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/view_previous_on.png);	
+}
+
+.button_next {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/view_next_on.png);	
+}
+
+.button_center {
+    width:30px; height:25px;
+    background-image: url(../img/ol_icons/center.png);	
+}
+
+.button_streetview {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/streetview.png);	
+}
+
+.button_coordinate {
+    width:25px; height:25px;
+    background-image: url(../img/ol_icons/xy.png);	
+}
+
+
+/* Minimapa */
+.gx-overview-map .olControlOverviewMapElement {
+    padding: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Iconos */
+.gx-tree-baselayer-icon{
+    background-image: url(../img/ol_icons/baselayer_icon.png) !important;
+}
+
+.baselayer_icon{
+    background-image: url(../img/ol_icons/baselayer_icon.png) !important;
+}
+
+.gx-tree-layer-icon{
+    background-image: url(../img/ol_icons/overlays_icon.png) !important;
+}
+
+.overlay_icon{
+    background-image: url(../img/ol_icons/overlays_icon.png) !important;
+}
+
+/* Filas del grid de indicaciones */
+#gridindicaciones .x-grid-item {height: 35px;} 
+
+#distancia {font-weight:bold;color:blue;text-align:left;display:inline;}
+#area {font-weight:bold;color:blue;text-align:left;display:inline;}
+
